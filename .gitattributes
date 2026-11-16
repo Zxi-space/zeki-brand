@@ -1,0 +1,11 @@
+# File: .gitattributes
+# Purpose: 定义 Git 文本换行与二进制素材识别规则。
+# Layer: Repository / Configuration
+
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.svg text eol=lf

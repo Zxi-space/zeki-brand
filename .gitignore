@@ -1,0 +1,35 @@
+# File: .gitignore
+# Purpose: 排除本地缓存、密钥和构建产物等非版本化文件。
+# Layer: Repository / Configuration
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+private/
+
+# Build / temporary
+dist/
+build/
+.tmp/
+.cache/
+*.log

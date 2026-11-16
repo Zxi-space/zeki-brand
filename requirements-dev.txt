@@ -1,0 +1,6 @@
+# File: requirements-dev.txt
+# Purpose: 声明本仓库 Registry 校验所需的 Python 开发依赖。
+# Layer: Repository / Tooling
+
+PyYAML>=6.0.2,<7.0
+jsonschema>=4.23.0,<5.0

@@ -1,0 +1,57 @@
+# File: products/registry.yaml
+# Purpose: 登记 Zeki 品牌生态中已提出或已批准的产品及域名信息。
+# Layer: Products / Registry
+
+schema_version: 1
+updated_at: "2026-11-14"
+
+brand:
+  id: zeki
+  name: Zeki
+
+domains:
+  - domain: zekiki.cc
+    role: brand_ecosystem_root
+    status: user_reported_owned
+    dns_status: unknown
+    assigned_product_id: null
+    notes: "品牌主提供的域名；DNS、托管、证书和具体站点分配尚未验证。"
+
+products:
+  - id: zeki-home
+    name: Zeki Home
+    name_status: provisional
+    category: personal
+    summary: "Zeki 的个人品牌网站与产品总入口。"
+    status: idea
+    ownership: zeki
+    visibility: public
+    domain: null
+    repository: null
+    created_at: "2026-11-14"
+    launch_date: null
+    source: user_intent
+    tags:
+      - personal-brand
+      - website
+      - portfolio
+    notes: "方向来自品牌主明确表达；展示名暂定，域名和仓库尚未确定。"
+
+  - id: zeki-us
+    name: Zeki & Kiki
+    name_status: provisional
+    category: lifestyle
+    summary: "Zeki 与 Kiki 的情侣数字空间。"
+    status: idea
+    ownership: joint
+    visibility: private
+    domain: null
+    repository: null
+    created_at: "2026-11-14"
+    launch_date: null
+    source: user_intent
+    tags:
+      - couple
+      - shared-space
+      - private-by-default
+    notes: "方向来自品牌主明确表达；产品名称、功能范围、域名和仓库尚未确定。"

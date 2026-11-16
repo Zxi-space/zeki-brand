@@ -1,0 +1,30 @@
+# File: products/templates/product.yaml
+# Purpose: 提供可复制的单个产品 YAML 元数据模板。
+# Layer: Products / Template
+
+# Copy this file into the product's project folder and replace TBD values.
+schema_version: 1
+id: replace-with-kebab-case-id
+name: "TBD"
+name_status: provisional
+category: other
+summary: "TBD"
+status: idea
+ownership: zeki
+visibility: private
+domain: null
+repository: null
+created_at: "YYYY-MM-DD"
+launch_date: null
+source: proposal
+tags: []
+notes: "TBD"
+
+# Suggested categories:
+# personal | lifestyle | experimental | tools | content | other
+# ownership:
+# zeki | kiki | joint
+# visibility:
+# public | private | unlisted | internal
+# status:
+# idea | planned | prototype | development | active | maintenance | archived

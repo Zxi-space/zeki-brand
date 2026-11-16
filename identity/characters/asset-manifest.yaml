@@ -1,0 +1,36 @@
+# File: identity/characters/asset-manifest.yaml
+# Purpose: 登记角色原始素材的路径、创作者、状态和完整性信息。
+# Layer: Identity / Asset Registry
+
+schema_version: 1
+assets:
+  - id: character-zeki-original-001
+    character: zeki
+    kind: original
+    path: identity/characters/zeki/original/zeki-original.png
+    creator: Kiki
+    source: user-provided-original-image
+    status: immutable
+    usage: internal-brand-source
+    notes: "第一张原画；未经裁切或二次加工直接收录。"
+  - id: character-kiki-original-001
+    character: kiki
+    kind: original
+    path: identity/characters/kiki/original/kiki-original.png
+    creator: Kiki
+    source: user-provided-original-image
+    status: immutable
+    usage: internal-brand-source
+    notes: "第二张原画；未经裁切或二次加工直接收录。"
+
+# Integrity metadata for the original files (computed at B0 packaging time).
+
+# zeki-original.png
+# sha256: 21c19a3f8928e51a140f002a6cbb6967c91ed616403471e6b9b974fd73a1e9e0
+# dimensions: 724x772
+# format: PNG
+
+# kiki-original.png
+# sha256: 3f7825c0ce76a60b0b4c52cfe86c1536b823750663ff00688edcbb452760f06c
+# dimensions: 534x682
+# format: PNG

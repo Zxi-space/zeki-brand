@@ -1,0 +1,223 @@
+{
+  "$comment": "File: schemas/product-registry.schema.json\nPurpose: 定义产品 Registry 的 JSON Schema 校验约束。\nLayer: Products / Schema",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zekiki.cc/schemas/product-registry.schema.json",
+  "title": "Zeki Brand Product Registry",
+  "description": "Schema for products/registry.yaml in the private Zeki Brand repository.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "updated_at",
+    "brand",
+    "domains",
+    "products"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "brand": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name"
+      ],
+      "properties": {
+        "id": {
+          "const": "zeki"
+        },
+        "name": {
+          "const": "Zeki"
+        }
+      }
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "domain",
+          "role",
+          "status",
+          "dns_status",
+          "assigned_product_id",
+          "notes"
+        ],
+        "properties": {
+          "domain": {
+            "type": "string",
+            "minLength": 3
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "brand_ecosystem_root",
+              "product",
+              "redirect",
+              "other"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "planned",
+              "user_reported_owned",
+              "verified_owned",
+              "retired"
+            ]
+          },
+          "dns_status": {
+            "type": "string",
+            "enum": [
+              "unknown",
+              "not_configured",
+              "configured",
+              "verified"
+            ]
+          },
+          "assigned_product_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "name_status",
+          "category",
+          "summary",
+          "status",
+          "ownership",
+          "visibility",
+          "domain",
+          "repository",
+          "created_at",
+          "launch_date",
+          "source",
+          "tags",
+          "notes"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name_status": {
+            "type": "string",
+            "enum": [
+              "provisional",
+              "approved"
+            ]
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "personal",
+              "lifestyle",
+              "experimental",
+              "tools",
+              "content",
+              "other"
+            ]
+          },
+          "summary": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "idea",
+              "planned",
+              "prototype",
+              "development",
+              "active",
+              "maintenance",
+              "archived"
+            ]
+          },
+          "ownership": {
+            "type": "string",
+            "enum": [
+              "zeki",
+              "kiki",
+              "joint"
+            ]
+          },
+          "visibility": {
+            "type": "string",
+            "enum": [
+              "public",
+              "private",
+              "unlisted",
+              "internal"
+            ]
+          },
+          "domain": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "repository": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "launch_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "source": {
+            "type": "string",
+            "enum": [
+              "user_intent",
+              "user_confirmed",
+              "proposal",
+              "imported"
+            ]
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
