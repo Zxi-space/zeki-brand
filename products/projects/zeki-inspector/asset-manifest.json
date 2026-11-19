@@ -1,0 +1,364 @@
+{
+  "product": "Zeki Inspector",
+  "package_version": "1.0",
+  "source_of_truth": "assets/logo/logo-mark-source.png",
+  "batches": {
+    "01": "Logo & Icons",
+    "02": "Brand Lockups",
+    "03": "Product Illustrations"
+  },
+  "assets": [
+    {
+      "path": "assets/app-icon/app-icon-1024.png",
+      "format": "png",
+      "bytes": 597648,
+      "sha256": "8304427f5f25830b7abe28ff0294fe56bcbc9833cac5662080643d27f2684769",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/app-icon/app-icon-128.png",
+      "format": "png",
+      "bytes": 21653,
+      "sha256": "623292b806d87d65e0f45c74ff98386b3f79bfb1c09231d408953976b3fc6f12",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/app-icon/app-icon-16.png",
+      "format": "png",
+      "bytes": 789,
+      "sha256": "de6b3226f08543dbee632cc032bf1fe4a78b442cd97e77df44cb16e7fdc40b25",
+      "width": 16,
+      "height": 16,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/app-icon/app-icon-256.png",
+      "format": "png",
+      "bytes": 63182,
+      "sha256": "9c8e024bdc7b46095ce4169bdf0dcdbed2f0e3880e933deef671d07f2d1c158b",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/app-icon/app-icon-32.png",
+      "format": "png",
+      "bytes": 2303,
+      "sha256": "3fb30705f8c55a0a030d8a8898c461235e18dfff42dc8ed989de7897200d37d3",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/app-icon/app-icon-512.png",
+      "format": "png",
+      "bytes": 190237,
+      "sha256": "1fb13fa001aa3a0f55583d8c3e42cda509a0c3d9c32dad2347d6c0ff5c845e43",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/app-icon/app-icon-64.png",
+      "format": "png",
+      "bytes": 7210,
+      "sha256": "2b0fa7a2c531974d21d90283ea28d424ecd8f9bcd7b65f53633201794fb326d0",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/app-icon/favicon-16.png",
+      "format": "png",
+      "bytes": 789,
+      "sha256": "de6b3226f08543dbee632cc032bf1fe4a78b442cd97e77df44cb16e7fdc40b25",
+      "width": 16,
+      "height": 16,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/app-icon/favicon-32.png",
+      "format": "png",
+      "bytes": 2303,
+      "sha256": "3fb30705f8c55a0a030d8a8898c461235e18dfff42dc8ed989de7897200d37d3",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/app-icon/favicon-48.png",
+      "format": "png",
+      "bytes": 4530,
+      "sha256": "9abeed8f1b33588b2073c40b1c062356cd3a980e7eb5e9550a49292f5a3b7cd1",
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/app-icon/favicon.ico",
+      "format": "ico",
+      "bytes": 106719,
+      "sha256": "9dce840dc2f7d9e4f38b337a69ff99dc2f397360fccd9c2322708c69005e87e4"
+    },
+    {
+      "path": "assets/asset-preview-batch-01.png",
+      "format": "png",
+      "bytes": 270683,
+      "sha256": "f69f7b5ccd79834387a1d03b346aa4a88f10a053aec1faff8dd1bb572164c43a",
+      "width": 1200,
+      "height": 760,
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "assets/asset-preview-v1.0.png",
+      "format": "png",
+      "bytes": 441967,
+      "sha256": "73b7456faf1fb68f2ed7e2f17ef5550cd577826eb3a2811e279f528e5befb5c2",
+      "width": 920,
+      "height": 1440,
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "assets/brand-lockup/logo-horizontal.png",
+      "format": "png",
+      "bytes": 490333,
+      "sha256": "6584516b781628682d20ad31cdb60ebf8c9c3b9941beb8cdf999535497817b4e",
+      "width": 2172,
+      "height": 724,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/brand-lockup/logo-vertical.png",
+      "format": "png",
+      "bytes": 879791,
+      "sha256": "d84e60a7abd30c725519acb0ef2e85199c1456386569d5c60c56ee2b23cee196",
+      "width": 1122,
+      "height": 1402,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/extension-icon/icon-128.png",
+      "format": "png",
+      "bytes": 24438,
+      "sha256": "9fd28f86261709b832a2731785880175dd619f1fdc41858b2eb5d339fbb462af",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/extension-icon/icon-16.png",
+      "format": "png",
+      "bytes": 884,
+      "sha256": "a33f9691341d2ff7fd53e4c559d8130add4b2f657616e7fed52c8dde596845e1",
+      "width": 16,
+      "height": 16,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/extension-icon/icon-256.png",
+      "format": "png",
+      "bytes": 69835,
+      "sha256": "16f2bf10b76e5fa42edd4cc700506a6e687dd4b339a7559e0b6fb13c56e749d1",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/extension-icon/icon-32.png",
+      "format": "png",
+      "bytes": 2815,
+      "sha256": "16209f8dcb961899cf5809d0e9516650ba4ec73e398c4fde79bd9d3b3032b878",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/extension-icon/icon-48.png",
+      "format": "png",
+      "bytes": 5211,
+      "sha256": "9e5b7563da0f92fe0259d418aaf30979214ccd2cdf16e752fa77c61abfe3f002",
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/extension-icon/icon-64.png",
+      "format": "png",
+      "bytes": 8474,
+      "sha256": "d69d6ac4b50b77d412918b38914e8e345f5f325eddde4774f151ac0b11a2b7d1",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/illustration/ai-context/ai-context-detective-workflow.png",
+      "format": "png",
+      "bytes": 1151564,
+      "sha256": "682c1315c510e9cd8f17dd6007ce6e3b0c58225ce8d4d48116be76ea0d6917b7",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/illustration/brand-guide-board.png",
+      "format": "png",
+      "bytes": 1808591,
+      "sha256": "b86d2f745438ac2af70abd2dffccbd474431db8f8c14f164cc57d0e0b0816068",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "assets/illustration/empty-state/empty-state-inspector.png",
+      "format": "png",
+      "bytes": 1507145,
+      "sha256": "a0a9c418cfad5aad780e9964cc83f723d70c6c5fd98a21b0b4abe7a839b60379",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/illustration/feedback/curious-hint-moment.png",
+      "format": "png",
+      "bytes": 1052990,
+      "sha256": "253b609ac72b8b68ec5c4431db09b49ca16041e0cfcca37f69607030b3ab1be0",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/illustration/onboarding/welcome-illustration.png",
+      "format": "png",
+      "bytes": 953681,
+      "sha256": "17f13c116bcb76f16df49719a3bd77c41188b6f77e9ae246552d2262bab58f90",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/illustration/selection/element-selection-success.png",
+      "format": "png",
+      "bytes": 1202051,
+      "sha256": "c771a712cb89ecc8c4dc4454a19e0d9f616f80c4b2f78ebbf6d37b27107c1523",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/logo/approved-mascot-source.png",
+      "format": "png",
+      "bytes": 796973,
+      "sha256": "bde598be57921102b218f7e4f0a36f7b71acbedb44ba3f2ccab099cd428aa44f",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/logo/logo-mark-1024.png",
+      "format": "png",
+      "bytes": 604860,
+      "sha256": "a5beedaef1667be469b12f13a39e909052a390d5e8f0bd935ac3af46ac0a079e",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/logo/logo-mark-128.png",
+      "format": "png",
+      "bytes": 22696,
+      "sha256": "65035bfd33cc3eb90899c67be334a58a0a94969459a5da80b28c86473a2b6433",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/logo/logo-mark-256.png",
+      "format": "png",
+      "bytes": 65179,
+      "sha256": "203f7c420e8bf83afdf1976016befaa32b92dba82dd2f867c1e8ba4bbb95fe47",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/logo/logo-mark-512.png",
+      "format": "png",
+      "bytes": 192325,
+      "sha256": "759590b6bea9e5f21574fd46b58bbd3c45292a26da46cf21c955248fe13a3dc8",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/logo/logo-mark-64.png",
+      "format": "png",
+      "bytes": 7929,
+      "sha256": "ef00e16c3c01801f38d65e4ec2f5a6cd623a0bb9db4cb3484a20175b7decc90d",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/logo/logo-mark-source.png",
+      "format": "png",
+      "bytes": 796973,
+      "sha256": "bde598be57921102b218f7e4f0a36f7b71acbedb44ba3f2ccab099cd428aa44f",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/logo/logo-mark.png",
+      "format": "png",
+      "bytes": 796973,
+      "sha256": "bde598be57921102b218f7e4f0a36f7b71acbedb44ba3f2ccab099cd428aa44f",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "has_alpha": true
+    },
+    {
+      "path": "assets/logo/logo-mark.svg",
+      "format": "svg",
+      "bytes": 2125998,
+      "sha256": "a150333f97c9e3330b7378a41008555593ff7b0f3572edea8ec6476a96957e66"
+    }
+  ]
+}
